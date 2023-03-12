@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.14.1",
+    "@remix-run/react": "^1.14.1",
+    "@remix-run/vercel": "^1.14.1",
+    "@vercel/node": "^2.6.2",
+    "@web3modal/ethereum": "^2.2.0",
+    "@web3modal/react": "^2.2.0",
+    "ethers": "^5",
+    "isbot": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wagmi": "^0.12.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.14.1",
+    "@remix-run/eslint-config": "^1.14.1",
+    "@remix-run/serve": "^1.14.1",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
